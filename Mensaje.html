@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Casita</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace a la hoja de estilos -->
+    <style>
+        .imagenes {
+            display: flex;
+            justify-content: center; /* Centra las imágenes horizontalmente */
+            gap: 5px; /* Espacio entre imágenes */
+        }
+        .imagenes img {
+            width: 100px; /* Ajusta el tamaño de las imágenes */
+            height: auto;
+        }
+
+        /* Animación de palpitación para la última imagen */
+        .palpitante {
+            width: 150px; /* Ajusta el tamaño de la imagen */
+            height: auto;
+            display: block;
+            margin: 10px auto; /* Centra la imagen */
+            animation: latido 1.5s infinite ease-in-out;
+        }
+
+        @keyframes latido {
+            0% { transform: scale(1); }  /* Tamaño normal */
+            50% { transform: scale(1.1); } /* Se agranda un poco */
+            100% { transform: scale(1); } /* Vuelve al tamaño normal */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">🩷🩷🩷Nuestra casita🩷🩷🩷</h1>
+    </header>
+
+    <!-- Imagen principal centrada -->
+    <div style="text-align: center;">
+        <img src="C:\Users\Luis D\Pictures\casa pro.jpg" alt="Foto de la casa" width="400">
+    </div>
+
+    <!-- Dos imágenes alineadas horizontalmente -->
+    <div class="imagenes">
+        <img src="C:\Users\Luis D\Pictures\casa.jpg" alt="Foto de la casa">
+        <img src="C:\Users\Luis D\Pictures\casa 2.jpg" alt="Otra foto de la casa">
+    </div>
+
+    <!-- Última imagen con animación de palpitación -->
+    <img class="palpitante" src="C:\Users\Luis D\Pictures\cora.jpg" alt="Otra foto de la casa">
+
+    <h2 style="text-align: center;">Holaa Scarlita, de verdad quiero volver contigo, me hace muy mal todo esto. Por favor dime que sí me darás una última oportunidad, Me haces mucha falta y todos estos días he sentido mi corazón muy pequeñito porque quiero estar contigo para siempre. Quiero demostrártelo todos los dias, ambos sabemos que nuestro futuro es siempre es estatr junto, fui muy cruel y muy malo, dejame enseñarte que el amor de siento por ti es mucho mas que cualquier cosa y voy a seguir mejorando por ti. te amo mucho mi bebe chiquititaa 💖💖💖💖💖</h2>
+</body>
+</html>
